@@ -13,8 +13,8 @@ class Modal extends Component {
                     <h2>Coming Soon!</h2>
                     <p>Thank you for expressing your interest in {this.props.children}! We are putting the finishing touches on {this.props.children} and you'll be the first to know when it's done.</p>
                     <form method="POST" action='/' name="harmonyfamilyyoga" data-netlify="true">
-                      <label>Email</label>
-                      <input type="hidden" name="harmonyfamilyyoga" value="harmonyfamilyyoga" />
+                      <label htmlFor='email'>Email</label>
+                      <input type="hidden" name="form-name" value="harmonyfamilyyoga" />
                       <input className="input" name='email' type="email" placeholder="email"/>
                       <button className='button small' type='submit' name='button'>Submit</button>
                     </form>
