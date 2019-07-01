@@ -4,7 +4,7 @@ class CaseStudy extends Component {
   render() {
     return (
       <section className='caseStudySection'>
-        <h1 className='headingOne'>Case Study</h1>
+        <h1 className='headingOne'>Learn More</h1>
         <div className='caseStudies'>
           <div className='caseStudy'>
             <div className='caseStudyImage  caseOne' />
@@ -14,7 +14,7 @@ class CaseStudy extends Component {
               target='_blank'
               rel='noopener noreferrer'
             >
-              <span className='magicalLine'>Family</span>
+              <span className='magicalLine'>Children</span>
             </a>
           </div>
           <div className='caseStudy'>
@@ -36,7 +36,7 @@ class CaseStudy extends Component {
               target='_blank'
               rel='noopener noreferrer'
             >
-              <span className='magicalLine'>Children</span>
+              <span className='magicalLine'>Family</span>
             </a>
           </div>
         </div>

@@ -10,7 +10,7 @@ class Footer extends Component {
             <h3>Contact Us</h3>
             <p>
               <a href=''>
-                Hello@HarmonyFamilyYoga.com
+                cc@HarmonyFamilyYoga.com
               </a>
             </p>
             <p>
