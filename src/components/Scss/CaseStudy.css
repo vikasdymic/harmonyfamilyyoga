@@ -3,8 +3,8 @@
   background-image: url(../img/purple-dust.png);
   background-repeat: repeat;
   background-position: center center;
-  background-attachment: fixed;
-}
+  background-attachment: fixed; }
+
 .caseStudy {
   overflow: hidden;
   height: 400px;
@@ -14,8 +14,8 @@
   border-radius: 4px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-  cursor: pointer;
-}
+  cursor: pointer; }
+
 .caseStudyImage {
   display: flex;
   justify-content: flex-start;
@@ -27,33 +27,30 @@
   height: 100%;
   width: 100%;
   background-color: lightgray;
-  transition: all 0.3s ease-in-out;
-}
+  transition: all 0.3s ease-in-out; }
+
 .caseOne {
-  background: url('../img/cs_585798924.jpg') no-repeat center/cover;
-}
+  background: url("../img/cs_585798924.jpg") no-repeat center/cover; }
+
 .caseTwo {
-  background: url('../img/cs_600176966.jpg') no-repeat center/cover;
-}
+  background: url("../img/cs_600176966.jpg") no-repeat center/cover; }
+
 .caseThree {
-  background: url('../img/cs_681511870.jpg') no-repeat center/cover;
-}
+  background: url("../img/cs_681511870.jpg") no-repeat center/cover; }
 
 .caseStudy:hover .caseStudyImage,
 .caseStudy:focus .caseStudyImage {
   cursor: pointer;
   transform: scale(1.05);
-  cursor: pointer;
-}
+  cursor: pointer; }
+
 .caseStudy:hover {
-  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-}
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); }
 
 .caseStudies {
   display: grid;
   grid-gap: 2rem;
-  grid-template-columns: repeat(3, 1fr);
-}
+  grid-template-columns: repeat(3, 1fr); }
 
 .caseStudyLink {
   box-sizing: border-box;
@@ -74,20 +71,11 @@
   text-transform: uppercase;
   letter-spacing: 0.2rem;
   font-size: 1.3rem;
-  color: #fff;
-}
-
+  color: #fff; }
 
 .caseStudy:hover .magicalLine {
-  background-size: 100% 88%;
-}
-
-.headingOne {
-  color: $text-light;
-}
+  background-size: 100% 88%; }
 
 @media (max-width: 1024px) {
   .caseStudies {
-    grid-template-columns: repeat(1, 1fr);
-  }
-}
+    grid-template-columns: repeat(1, 1fr); } }

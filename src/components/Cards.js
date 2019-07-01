@@ -1,31 +1,35 @@
 import React, { Component } from 'react';
 import Card from './Card';
+import Yoga1 from '../img/yoga_1.png';
+import Yoga2 from '../img/yoga_2.png';
+import Yoga3 from '../img/yoga_3.png';
+import Yoga4 from '../img/yoga_4.png';
 
 class Cards extends Component {
   render() {
     return (
       <section className='cardsSection'>
-        <h1 className='headingOne'>Classes for Every Age</h1>
+        <h1 className='headingOne'>Classes for Every Age<br /><span>(Private classes available on request)</span></h1>
         <div className='cards'>
           <Card
-            cardIcon={null}
+            cardIcon={Yoga3}
             cardTitle='Adults'
-            cardText='Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.'
+            cardText='Harmony Family Yoga offers adult classes including Morning Asana, Pranayama and Meditation; Candlelight and Karma Yoga. Feel happier, less stressed, less anxious, more compassionate and spark your creativity.'
           />
           <Card
-            cardIcon={null}
+            cardIcon={Yoga1}
             cardTitle='Children'
-            cardText='Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.'
+            cardText='Harmony Family Yoga provides a safe environment for children as well. We offer the following experiences: Age 2-15, Parent and Me, Tots & Teen Yoga, Partner Yoga, and Family fun yoga. Strengthen growing bodies, enhance concentration, increases self esteem, teaches present moment awareness, discipline and responsibility.'
           />
           <Card
-            cardIcon={null}
-            cardTitle='Baby'
-            cardText='Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.'
+            cardIcon={Yoga2}
+            cardTitle='Prenatal & Postnatal'
+            cardText='Harmony Family Yoga offers classes for soon-to-be families as well. Cultivate a peaceful, relaxed state of body and mind. '
           />
           <Card
-            cardIcon={null}
+            cardIcon={Yoga4}
             cardTitle='Senior'
-            cardText='Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.'
+            cardText='Meet new people and experience the following classes: Hatha yoga, Yin yoga, Restorative Yoga and Yoga Synergy. Maintain flexibility and enhance body awareness, Encourage kind peer and social interactions. '
           />
         </div>
       </section>

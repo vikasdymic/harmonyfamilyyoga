@@ -14,10 +14,9 @@ class App extends Component {
       <div className='App'>
         <Header />
         <Hero />
-        <Cards />
-        <CaseStudy />
-        <Partner />
         <Ignite />
+        <CaseStudy />
+        <Cards />
         <Footer />
       </div>
     );

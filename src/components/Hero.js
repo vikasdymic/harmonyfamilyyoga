@@ -3,12 +3,16 @@ import Button from './Button';
 import HeroVideo from '../vid/hero-video.mp4';
 
 class Hero extends Component {
+
   render() {
     return (
       <section className='heroSection'>
-        <div class='hero-video-wrapper'>
-          <video muted autoplay loop class='hero-video'>
+        <div className='hero-video-wrapper'>
+          <video muted autoPlay loop className='hero-video'>
             <source src={HeroVideo} type='video/mp4' />
+            <script>
+              document.querySelector('.hero-video').play();
+            </script>
           </video>
         </div>
         <div className='heroContent'>

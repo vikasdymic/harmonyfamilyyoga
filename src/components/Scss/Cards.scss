@@ -1,5 +1,9 @@
 @import './_Colors.scss';
 
+.card {
+  align-self: flex-start;
+}
+
 .cardsSection {
   background-color: $purple;
   color: white;
@@ -12,12 +16,25 @@
   grid-template-columns: repeat(4, 1fr);
 }
 
+.headingOne > span {
+  font-size: 1.5rem;
+}
+
+.headingOne {
+  line-height: 2.2rem;
+}
+
+.outro {
+  font-size: 2.0rem;
+  font-family: $font-display;
+}
+
 @media (max-width: 1024px) {
   .cards {
     grid-template-columns: repeat(2, 1fr);
   }
 }
-@media (max-width: 425px) {
+@media (max-width: 725px) {
   .cards {
     grid-template-columns: repeat(1, 1fr);
   }

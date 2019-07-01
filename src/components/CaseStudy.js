@@ -10,33 +10,33 @@ class CaseStudy extends Component {
             <div className='caseStudyImage  caseOne' />
             <a
               className='caseStudyLink'
-              href='https://thesulfurgroup.com/portfolio/too-faced-cosmetics/'
+              href=''
               target='_blank'
               rel='noopener noreferrer'
             >
-              <span className='magicalLine'>Too Faced</span>
+              <span className='magicalLine'>Family</span>
             </a>
           </div>
           <div className='caseStudy'>
             <div className='caseStudyImage  caseTwo' />
             <a
               className='caseStudyLink'
-              href='https://thesulfurgroup.com/portfolio/neutrogena-influencer-campaign/'
+              href=''
               target='_blank'
               rel='noopener noreferrer'
             >
-              <span className='magicalLine'>Neutrogena</span>
+              <span className='magicalLine'>Senior</span>
             </a>
           </div>{' '}
           <div className='caseStudy'>
             <div className='caseStudyImage  caseThree' />
             <a
               className='caseStudyLink'
-              href='https://thesulfurgroup.com/portfolio/bh-cosmetics/'
+              href=''
               target='_blank'
               rel='noopener noreferrer'
             >
-              <span className='magicalLine'>BH Cosmetics</span>
+              <span className='magicalLine'>Children</span>
             </a>
           </div>
         </div>

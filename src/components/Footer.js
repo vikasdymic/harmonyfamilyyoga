@@ -9,20 +9,20 @@ class Footer extends Component {
           <div className='contactUs'>
             <h3>Contact Us</h3>
             <p>
-              <a href='mailto:Hello@TheSulfurGroup.com'>
-                Hello@TheSulfurGroup.com
+              <a href=''>
+                Hello@HarmonyFamilyYoga.com
               </a>
             </p>
             <p>
-              <a href='tel:+12135452744'>Phone: (213) 545-2744</a>
+              <a href=''>Phone: (123) 456-7890</a>
             </p>
           </div>
-          <Button btnStyles='' buttonLabel='Get Lit' />
+          <Button btnStyles='' buttonLabel='Begin today' />
         </div>
         <div className='footerBottom'>
           <p>
             © Copyright 2019 -{' '}
-            <span className='magicalLine'>The Sulfur Group.</span> All Rights
+            <span className='magicalLine'>Harmony Family Yoga.</span> All Rights
             Reserved.
           </p>
         </div>

@@ -122,7 +122,7 @@ a {
 
 .card .cardIcon {
   width: auto;
-  height: 50px; }
+  height: 100px; }
 
 .card .cardDetails {
   display: grid;
@@ -142,6 +142,9 @@ a {
   background-position: 0 88%;
   transition: background-size 0.25s ease-in; }
 
+.card {
+  align-self: flex-start; }
+
 .cardsSection {
   background-color: #9042df;
   color: white;
@@ -152,17 +155,30 @@ a {
   grid-gap: 2rem;
   grid-template-columns: repeat(4, 1fr); }
 
+.headingOne > span {
+  font-size: 1.5rem; }
+
+.headingOne {
+  line-height: 2.2rem; }
+
+.outro {
+  font-size: 2.0rem;
+  font-family: "Questrial", sans-serif; }
+
 @media (max-width: 1024px) {
   .cards {
     grid-template-columns: repeat(2, 1fr); } }
 
-@media (max-width: 425px) {
+@media (max-width: 725px) {
   .cards {
     grid-template-columns: repeat(1, 1fr); } }
 
 .caseStudySection {
   background-color: #dddddd;
-  background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23eeeeee' fill-opacity='0.34' fill-rule='evenodd'%3E%3Ccircle cx='3' cy='3' r='3'/%3E%3Ccircle cx='13' cy='13' r='3'/%3E%3C/g%3E%3C/svg%3E"); }
+  background-image: url(../img/purple-dust.png);
+  background-repeat: repeat;
+  background-position: center center;
+  background-attachment: fixed; }
 
 .caseStudy {
   overflow: hidden;
@@ -187,6 +203,15 @@ a {
   width: 100%;
   background-color: lightgray;
   transition: all 0.3s ease-in-out; }
+
+.caseOne {
+  background: url("../img/cs_585798924.jpg") no-repeat center/cover; }
+
+.caseTwo {
+  background: url("../img/cs_600176966.jpg") no-repeat center/cover; }
+
+.caseThree {
+  background: url("../img/cs_681511870.jpg") no-repeat center/cover; }
 
 .caseStudy:hover .caseStudyImage,
 .caseStudy:focus .caseStudyImage {
@@ -225,6 +250,9 @@ a {
 
 .caseStudy:hover .magicalLine {
   background-size: 100% 88%; }
+
+.headingOne {
+  color: #f9f9f9; }
 
 @media (max-width: 1024px) {
   .caseStudies {
@@ -391,15 +419,18 @@ nav {
   .heroSection .heroContent {
     padding-top: 7rem; } }
 
+.igniteSection {
+  background-color: #9042df; }
+
 .igniteSection .igniteCards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 2rem; }
+  grid-gap: 4rem; }
 
 .igniteCards .card .cardIcon {
   display: none; }
 
-@media (max-width: 425px) {
+@media (max-width: 825px) {
   .igniteSection .igniteCards {
     grid-template-columns: repeat(1, 1fr); } }
 
