@@ -5,27 +5,27 @@ class Cards extends Component {
   render() {
     return (
       <section className='cardsSection'>
-        <h1 className='headingOne'>A Redefined Palette Of Innovation</h1>
+        <h1 className='headingOne'>Classes for Every Age</h1>
         <div className='cards'>
           <Card
             cardIcon={null}
-            cardTitle='Data Driven Analytics'
-            cardText='Numbers never lie, neither do we. Through measuring, analyzing, and re-executing we are constantly ahead of the trend in traditional advertising.'
+            cardTitle='Adults'
+            cardText='Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.'
           />
           <Card
             cardIcon={null}
-            cardTitle='Authentic Engagement'
-            cardText='Your brand is our brand. We custom-tailor our search in connecting you with the closest true-to-fit identity to spark your audience.'
+            cardTitle='Children'
+            cardText='Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.'
           />
           <Card
             cardIcon={null}
-            cardTitle='Quality Relationships'
-            cardText='We’re all about people and genuine connections. True engagement begins with honest talent and in-person interactions to create full coverage experience for all.'
+            cardTitle='Baby'
+            cardText='Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.'
           />
           <Card
             cardIcon={null}
-            cardTitle='Strategy Development'
-            cardText='Every step and action is intentional. Our methodology integrates multi-media marketing and calculated design to propel each campaign into success.'
+            cardTitle='Senior'
+            cardText='Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.'
           />
         </div>
       </section>
