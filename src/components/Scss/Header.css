@@ -4,55 +4,45 @@ header {
   top: 0;
   z-index: 9999;
   background: transparent;
-  padding: 2rem 5rem;
-}
+  padding: 2rem 5rem; }
+
 nav {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-}
+  align-items: center; }
+
 .navLeft {
   height: 5rem;
   width: auto;
-  margin-right: 3rem;
-}
+  margin-right: 3rem; }
+
 .navRight {
   display: flex;
   flex-flow: wrap;
   align-items: center;
-  justify-content: flex-start;
-}
+  justify-content: flex-start; }
+
 .navRight > a:not(:last-child) {
-  padding-right: 1rem;
-}
+  padding-right: 1rem; }
 
 .logo {
-  filter: hue-rotate(35deg);
-}
+  filter: hue-rotate(35deg); }
 
 .logo:hover {
-  animation: spin 10s linear infinite;
-}
+  animation: spin 10s linear infinite; }
 
 @keyframes spin {
   from {
-    transform: rotate(0deg);
-  }
+    transform: rotate(0deg); }
   to {
-    transform: rotate(360deg);
-  }
-}
+    transform: rotate(360deg); } }
 
 .logo {
   width: auto;
-  height: 100%;
-}
+  height: 100%; }
 
 @media (max-width: 425px) {
   header {
-    padding: 1rem 2rem;
-  }
+    padding: 1rem 2rem; }
   .logo {
-    animation: spin 10s linear infinite;
-  }
-}
+    animation: spin 10s linear infinite; } }

@@ -1,8 +1,20 @@
 import React, { Component } from 'react';
 import Button from './Button';
 import Logo from '../img/logo.svg';
+import Modal from './Modal';
 
 class Header extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = { isOpen: false };
+  }
+
+  toggleModal = () => {
+    this.setState({
+      isOpen: !this.state.isOpen
+    });
+  }
   render() {
     return (
       <header>
@@ -13,7 +25,9 @@ class Header extends Component {
             </a>
           </div>
           <div className='navRight'>
-            <Button buttonStyle='small' buttonLabel='Sign Up' />
+            <button className='medium button' onClick={this.toggleModal}>Sign up</button>
+            <Modal show={this.state.isOpen}
+              onClose={this.toggleModal}>Harmony Family Yoga</Modal>
           </div>
         </nav>
       </header>

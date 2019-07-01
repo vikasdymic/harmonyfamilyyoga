@@ -25,7 +25,7 @@ class CaseStudy extends Component {
               target='_blank'
               rel='noopener noreferrer'
             >
-              <span className='magicalLine'>Senior</span>
+              <span className='magicalLine'>Family</span>
             </a>
           </div>{' '}
           <div className='caseStudy'>
@@ -36,7 +36,7 @@ class CaseStudy extends Component {
               target='_blank'
               rel='noopener noreferrer'
             >
-              <span className='magicalLine'>Family</span>
+              <span className='magicalLine'>Senior</span>
             </a>
           </div>
         </div>

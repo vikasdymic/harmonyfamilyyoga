@@ -1,8 +1,20 @@
 import React, { Component } from 'react';
 import Button from './Button';
 import HeroVideo from '../vid/hero-video.mp4';
+import Modal from './Modal';
 
 class Hero extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = { isOpen: false };
+  }
+
+  toggleModal = () => {
+    this.setState({
+      isOpen: !this.state.isOpen
+    });
+  }
 
   render() {
     return (
@@ -23,7 +35,9 @@ class Hero extends Component {
             <q>A family in harmony will prosper in everything.</q>
             <p>-Chinese Proverb</p>
           </p>
-          <Button buttonLabel='Connect to your inner self' />
+          <button className='hero button' onClick={this.toggleModal}>Connect with your inner self</button>
+          <Modal show={this.state.isOpen}
+            onClose={this.toggleModal}>Harmony Family Yoga</Modal>
         </div>
       </section>
     );

@@ -12,11 +12,6 @@ class Cards extends Component {
         <h1 className='headingOne'>Classes for Every Age<br /><span>(Private classes available on request)</span></h1>
         <div className='cards'>
           <Card
-            cardIcon={Yoga3}
-            cardTitle='Adults'
-            cardText='Harmony Family Yoga offers adult classes including Morning Asana, Pranayama and Meditation; Candlelight and Karma Yoga. Feel happier, less stressed, less anxious, more compassionate and spark your creativity.'
-          />
-          <Card
             cardIcon={Yoga1}
             cardTitle='Children'
             cardText='Harmony Family Yoga provides a safe environment for children as well. We offer the following experiences: Age 2-15, Parent and Me, Tots & Teen Yoga, Partner Yoga, and Family fun yoga. Strengthen growing bodies, enhance concentration, increases self esteem, teaches present moment awareness, discipline and responsibility.'
@@ -25,6 +20,11 @@ class Cards extends Component {
             cardIcon={Yoga2}
             cardTitle='Prenatal & Postnatal'
             cardText='Harmony Family Yoga offers classes for soon-to-be families as well. Cultivate a peaceful, relaxed state of body and mind. '
+          />
+          <Card
+            cardIcon={Yoga3}
+            cardTitle='Adults'
+            cardText='Harmony Family Yoga offers adult classes including Morning Asana, Pranayama and Meditation; Candlelight and Karma Yoga. Feel happier, less stressed, less anxious, more compassionate and spark your creativity.'
           />
           <Card
             cardIcon={Yoga4}
