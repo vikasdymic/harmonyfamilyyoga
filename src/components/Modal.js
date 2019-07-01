@@ -14,10 +14,10 @@ class Modal extends Component {
                     <p>Thank you for expressing your interest in {this.props.children}! We are putting the finishing touches on {this.props.children} and you'll be the first to know when it's done.</p>
                     <form method="POST" action='https://www.harmonyfamilyyoga.com/' name="harmonyfamilyyoga" data-netlify="true">
                       <input className="input" name='email' type="email" placeholder="email"/>
-                      <button type='submit' name='button'>Submit</button>
+                      <button className='button small' type='submit' name='button'>Submit</button>
                       <input type="hidden" name="harmonyfamilyyoga" value="harmonyfamilyyoga" />
                     </form>
-                    <button class='button medium' onClick={this.props.onClose}>Close</button>
+                    <button className='button medium' onClick={this.props.onClose}>Close</button>
                 </div>
             </div>
         )
