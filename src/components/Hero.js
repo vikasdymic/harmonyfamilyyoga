@@ -33,7 +33,6 @@ class Hero extends Component {
           </h1>
           <p className='heroContentCopy'>
             <q>A family in harmony will prosper in everything.</q>
-            <p>-Chinese Proverb</p>
           </p>
           <button className='hero button' onClick={this.toggleModal}>Connect with your inner self</button>
           <Modal show={this.state.isOpen}

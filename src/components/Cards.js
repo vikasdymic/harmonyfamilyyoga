@@ -9,12 +9,12 @@ class Cards extends Component {
   render() {
     return (
       <section className='cardsSection'>
-        <h1 className='headingOne'>Classes for Every Age<br /><span>(Private classes available on request)</span></h1>
+        <h1 className='headingOne'>Classes for Every Age<br /><span>(Private classes available upon request)</span></h1>
         <div className='cards'>
           <Card
             cardIcon={Yoga1}
             cardTitle='Children'
-            cardText='Harmony Family Yoga provides a safe environment for children as well. We offer the following experiences: Age 2-15, Parent and Me, Tots & Teen Yoga, Partner Yoga, and Family fun yoga. Strengthen growing bodies, enhance concentration, increases self esteem, teaches present moment awareness, discipline and responsibility.'
+            cardText='Harmony Family Yoga teaches yoga and mindfulness to children ages 2 to 15 years. We offer the following experiences: Parent and Me, Tots & Teen Yoga, Partner Yoga, and Family fun yoga. Strengthen growing bodies, enhance concentration, increases self esteem, teaches present moment awareness, discipline and responsibility.'
           />
           <Card
             cardIcon={Yoga2}
