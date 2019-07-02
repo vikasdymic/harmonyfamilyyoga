@@ -21,12 +21,12 @@ class Footer extends Component {
           <div className='contactUs'>
             <h3>Contact Us</h3>
             <p>
-              <a href=''>
+              <a href='mailto:cc@harmonyfamilyyoga.com'>
                 cc@HarmonyFamilyYoga.com
               </a>
             </p>
             <p>
-              <a href=''>Phone: (123) 456-7890</a>
+              <a href='tel:11234567890'>Phone: (123) 456-7890</a>
             </p>
           </div>
           <button className='button' onClick={this.toggleModal}>Begin Today</button>
