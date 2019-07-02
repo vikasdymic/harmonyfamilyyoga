@@ -11,10 +11,10 @@ $text-light: #f9f9f9;
 
 $line-gradient: linear-gradient(to right, $purple 0%, $purple-light 100%);
 
-@import url('https://fonts.googleapis.com/css?family=Questrial|Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Caveat:400,700|Montserrat&display=swap');
 
-$font-body: 'Work Sans', sans-serif;
-$font-display: 'Questrial', sans-serif;
+$font-body: 'Montserrat', sans-serif;
+$font-display: 'Caveat', cursive;
 
 .magicalLine {
   background-image: $line-gradient;

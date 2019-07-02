@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Questrial|Work+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Caveat:400,700|Montserrat&display=swap");
 .magicalLine {
   background-image: linear-gradient(to right, #9042df 0%, #bc9bf2 100%);
   background-repeat: no-repeat;
@@ -20,14 +20,16 @@
   grid-template-columns: repeat(4, 1fr); }
 
 .headingOne > span {
-  font-size: 1.5rem; }
+  font-size: 1.7rem;
+  font-family: "Caveat", cursive; }
 
 .headingOne {
-  line-height: 2.2rem; }
+  font-size: 3.8rem;
+  line-height: 2.4rem; }
 
 .outro {
   font-size: 2.0rem;
-  font-family: "Questrial", sans-serif; }
+  font-family: "Caveat", cursive; }
 
 @media (max-width: 1024px) {
   .cards {

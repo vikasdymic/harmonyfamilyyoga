@@ -1,3 +1,11 @@
+@import url("https://fonts.googleapis.com/css?family=Caveat:400,700|Montserrat&display=swap");
+.magicalLine {
+  background-image: linear-gradient(to right, #9042df 0%, #bc9bf2 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.2em;
+  background-position: 0 88%;
+  transition: background-size 0.25s ease-in; }
+
 .heroSection {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -15,17 +23,13 @@
   height: 100vh;
   width: 100%;
   overflow: hidden;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: top;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
+  background: linear-gradient(#bc9bf2 0%, #9042df 100%);
   text-align: center; }
 
 .heroSection .heroContent .heroContentTitle {
-  font-size: 4.4rem;
-  letter-spacing: .2rem; }
+  font-size: 4.4rem !important;
+  letter-spacing: .2rem;
+  font-weight: 400; }
 
 .heroSection .heroContent .heroContentCopy {
   padding: 2rem;
@@ -36,6 +40,10 @@
 
 .heroContent {
   z-index: 10; }
+
+.heroContentTitle > span {
+  font-weight: 700;
+  font-family: "Caveat", cursive; }
 
 .hero-video {
   min-height: 100vh;

@@ -1,9 +1,16 @@
+@import './_Colors.scss';
+
 footer {
   display: grid;
   grid-gap: 2rem;
   padding: 5rem;
   // background: #fff000;
   background: $purple-light;
+}
+
+.contactUs > h3 {
+  font-family: $font-display;
+  font-size: 2rem;
 }
 
 .harmonyFamilyYogaTagline {

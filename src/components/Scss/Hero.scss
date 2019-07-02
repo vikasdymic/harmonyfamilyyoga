@@ -1,3 +1,5 @@
+@import './_Colors.scss';
+
 .heroSection {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -19,8 +21,9 @@
   text-align: center;
 }
 .heroSection .heroContent .heroContentTitle {
-  font-size: 4.4rem;
+  font-size: 4.4rem !important;
   letter-spacing: .2rem;
+  font-weight: 400;
 }
 .heroSection .heroContent .heroContentCopy {
   padding: 2rem;
@@ -32,6 +35,11 @@
 
 .heroContent {
   z-index: 10;
+}
+
+.heroContentTitle > span {
+  font-weight: 700;
+  font-family: $font-display;
 }
 
 .hero-video {
