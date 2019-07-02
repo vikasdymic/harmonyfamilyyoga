@@ -26,7 +26,7 @@ class Footer extends Component {
               </a>
             </p>
             <p>
-              <a href='tel:11234567890'>Phone: (123) 456-7890</a>
+              <a href='tel:18055583634'>Phone: (805) 558-3634</a>
             </p>
           </div>
           <button className='button' onClick={this.toggleModal}>Begin Today</button>
