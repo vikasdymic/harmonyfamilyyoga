@@ -12,9 +12,19 @@ nav {
   align-items: center;
 }
 .navLeft {
-  height: 5rem;
+  height: 7rem;
   width: auto;
   margin-right: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  a {
+    img {
+      width: 15rem;
+      height: 15rem;
+      margin-top: 2.25rem;
+    }
+  }
 }
 .navRight {
   display: flex;
@@ -26,34 +36,13 @@ nav {
   padding-right: 1rem;
 }
 
-.logo {
-  // filter: hue-rotate(35deg);
-  background-blend-mode: multiply;
-}
-
-// .logo:hover {
-//   animation: spin 10s linear infinite;
-// }
-
-@keyframes spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.logo {
-  width: auto;
-  height: 100%;
-}
-
 @media (max-width: 425px) {
   header {
     padding: 1rem 2rem;
   }
   .logo {
-    animation: spin 10s linear infinite;
+    width: 10rem;
+    height: 10rem;
+    margin-top: 1.25rem;
   }
 }

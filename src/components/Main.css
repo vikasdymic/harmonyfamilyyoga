@@ -348,9 +348,17 @@ nav {
   align-items: center; }
 
 .navLeft {
-  height: 5rem;
+  height: 7rem;
   width: auto;
-  margin-right: 3rem; }
+  margin-right: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .navLeft a img {
+    width: 15rem;
+    height: 15rem;
+    margin-top: 2.25rem;
+    background-blend-mode: multiply; }
 
 .navRight {
   display: flex;
@@ -360,15 +368,6 @@ nav {
 
 .navRight > a:not(:last-child) {
   padding-right: 1rem; }
-
-.logo {
-  background-blend-mode: multiply; }
-
-@keyframes spin {
-  from {
-    transform: rotate(0deg); }
-  to {
-    transform: rotate(360deg); } }
 
 .logo {
   width: auto;
