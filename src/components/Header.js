@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Button from './Button';
-import Logo from '../img/logo.svg';
+import Logo from '../img/harmony-family-yoga-logo.png';
 import Modal from './Modal';
 
 class Header extends Component {
@@ -20,7 +20,7 @@ class Header extends Component {
       <header>
         <nav>
           <div className='navLeft'>
-            <a href='https://thesulfurgroup.com'>
+            <a href='https://www.harmonyfamilyyoga.com/'>
               <img className='logo' src={Logo} alt='Harmony Family Yoga | Mandala' />
             </a>
           </div>

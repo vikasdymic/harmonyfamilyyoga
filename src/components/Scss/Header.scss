@@ -27,12 +27,13 @@ nav {
 }
 
 .logo {
-  filter: hue-rotate(35deg);
+  // filter: hue-rotate(35deg);
+  background-blend-mode: multiply;
 }
 
-.logo:hover {
-  animation: spin 10s linear infinite;
-}
+// .logo:hover {
+//   animation: spin 10s linear infinite;
+// }
 
 @keyframes spin {
   from {

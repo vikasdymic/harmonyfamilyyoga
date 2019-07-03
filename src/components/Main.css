@@ -362,10 +362,7 @@ nav {
   padding-right: 1rem; }
 
 .logo {
-  filter: hue-rotate(35deg); }
-
-.logo:hover {
-  animation: spin 10s linear infinite; }
+  background-blend-mode: multiply; }
 
 @keyframes spin {
   from {
