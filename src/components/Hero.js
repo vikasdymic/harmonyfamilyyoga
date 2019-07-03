@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Button from './Button';
-import HeroVideo from '../vid/vid3-588699866.mp4';
+import HeroVideo from '../vid/hero-video.mp4';
 import Modal from './Modal';
 
 class Hero extends Component {
