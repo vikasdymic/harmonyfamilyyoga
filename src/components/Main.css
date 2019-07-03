@@ -9,6 +9,7 @@
 @import url("https://fonts.googleapis.com/css?family=Caveat:400,700|Montserrat&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Caveat:400,700|Montserrat&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Caveat:400,700|Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Caveat:400,700|Montserrat&display=swap");
 .magicalLine {
   background-image: linear-gradient(to right, #9042df 0%, #bc9bf2 100%);
   background-repeat: no-repeat;
@@ -191,6 +192,13 @@ a {
   .cards {
     grid-template-columns: repeat(1, 1fr); } }
 
+.magicalLine {
+  background-image: linear-gradient(to right, #9042df 0%, #bc9bf2 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.2em;
+  background-position: 0 88%;
+  transition: background-size 0.25s ease-in; }
+
 .caseStudySection {
   background-color: #dddddd;
   background-image: url(../img/purple-dust.png);
@@ -223,10 +231,10 @@ a {
   transition: all 0.3s ease-in-out; }
 
 .caseOne {
-  background: url("../img/cs_681511870.jpg") no-repeat center/cover; }
+  background: url("../img/yoga-children.jpg") no-repeat center/cover; }
 
 .caseTwo {
-  background: url("../img/cs_585798924.jpg") no-repeat center/cover; }
+  background: url("../img/yoga-family.jpeg") no-repeat center/cover; }
 
 .caseThree {
   background: url("../img/cs_600176966.jpg") no-repeat center/cover; }
@@ -354,11 +362,11 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center; }
-  .navLeft a img {
-    width: 15rem;
-    height: 15rem;
-    margin-top: 2.25rem;
-    background-blend-mode: multiply; }
+
+.navLeft a img {
+  width: 15rem;
+  height: 15rem;
+  margin-top: 2.25rem; }
 
 .navRight {
   display: flex;
@@ -369,15 +377,13 @@ nav {
 .navRight > a:not(:last-child) {
   padding-right: 1rem; }
 
-.logo {
-  width: auto;
-  height: 100%; }
-
 @media (max-width: 425px) {
   header {
     padding: 1rem 2rem; }
   .logo {
-    animation: spin 10s linear infinite; } }
+    width: 10rem;
+    height: 10rem;
+    margin-top: 1.25rem; } }
 
 .magicalLine {
   background-image: linear-gradient(to right, #9042df 0%, #bc9bf2 100%);

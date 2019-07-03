@@ -1,3 +1,5 @@
+@import './_Colors.scss';
+
 .caseStudySection {
   background-color: #dddddd;
   background-image: url(../img/purple-dust.png);
@@ -30,10 +32,10 @@
   transition: all 0.3s ease-in-out;
 }
 .caseOne {
-  background: url('../img/cs_681511870.jpg') no-repeat center/cover;
+  background: url('../img/yoga-children.jpg') no-repeat center/cover;
 }
 .caseTwo {
-  background: url('../img/cs_585798924.jpg') no-repeat center/cover;
+  background: url('../img/yoga-family.jpeg') no-repeat center/cover;
 }
 .caseThree {
   background: url('../img/cs_600176966.jpg') no-repeat center/cover;

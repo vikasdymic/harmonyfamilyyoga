@@ -25,7 +25,7 @@ class Header extends Component {
             </a>
           </div>
           <div className='navRight'>
-            <button className='medium button' onClick={this.toggleModal}>Sign up</button>
+            <button className='small button' onClick={this.toggleModal}>Sign up</button>
             <Modal show={this.state.isOpen}
               onClose={this.toggleModal}>Harmony Family Yoga</Modal>
           </div>
