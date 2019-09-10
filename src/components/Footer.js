@@ -28,7 +28,7 @@ class Footer extends Component {
             <p>
               <a href='tel:18055583634'>Phone: (805) 558-3634</a>
             </p>
-            <p>1655 E. Thousand Oaks Blvd., Suite 101.<br/>Thousand Oaks, CA 91362</p>
+            <p><a href="https://goo.gl/maps/U8iU9jDJbZZVjrz3A" alt="Harmony Family Yoga Google Maps Link">1655 E. Thousand Oaks Blvd., Suite 101.<br/>Thousand Oaks, CA 91362</a></p>
           </div>
           <button className='button' onClick={this.toggleModal}>Begin Today</button>
           <Modal show={this.state.isOpen}
