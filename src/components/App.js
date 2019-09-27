@@ -7,6 +7,7 @@ import CaseStudy from './CaseStudy';
 import Partner from './Partner';
 import Ignite from './Ignite';
 import Footer from './Footer';
+import Event from './Event';
 
 class App extends Component {
   render() {
@@ -15,6 +16,7 @@ class App extends Component {
         <Header />
         <Hero />
         <Ignite />
+        <Event></Event>
         <CaseStudy />
         <Cards />
         <Footer />
